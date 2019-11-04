@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
                 self.digit_label.setText(output_str)
                 
             except Exception as e:
-                print("Error uploading the file: {}", e)
+                print("Error uploading the file: {}".format(e))
             
     def initUI(self):
         """initialize UI settings"""
