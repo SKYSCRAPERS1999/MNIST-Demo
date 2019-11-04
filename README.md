@@ -1,7 +1,7 @@
 # MNIST-Demo
 
 ### Run:
-python main.py
+  `python main.py`
 
 ### Train:
-python train.py
+  `python train.py`
