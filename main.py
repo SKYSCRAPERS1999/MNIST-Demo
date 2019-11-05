@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
     def initUI(self):
         """initialize UI settings"""
         
-        self.H, self.W = 600, 600
+        self.H, self.W = 800, 600
         self.setWindowTitle("Simple Digit Recognition")
         self.setWindowIcon(QIcon("icons/trial.ico"))
         self.resize(self.W, self.H)
@@ -58,7 +58,8 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.upload_btn)
         
         self.img_label = QLabel(self)
-        self.img_label.setFixedHeight(400)
+        self.img_label.setFixedHeight(600)
+        self.img_label.setFixedHeight(600)
         layout.addWidget(self.img_label)
             
         self.digit_label = QLabel(self)
